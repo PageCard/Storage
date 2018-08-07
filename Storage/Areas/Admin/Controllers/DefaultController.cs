@@ -11,6 +11,7 @@ namespace Storage.Areas.Admin.Controllers
         // GET: Admin/Default
         public ActionResult Index()
         {
+            ViewBag.url = "fuck";
             return View();
         }
         public ActionResult Pro()
